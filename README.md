@@ -1,1 +1,1 @@
-# Trabalho-1---Arquitetura-de-computadores
+# Trabalho-1  Arquitetura-de-computadores
