@@ -1,1 +1,1 @@
-# Trabalho 1 - Arquitetura de computadores
+# Millions of Instructions Per Second (MIPS)
