@@ -15,8 +15,7 @@ Repositório criado com o objetivo de armazenar pequenos programas implementados
 
 # Instruções para testes
 ## Pré-requisitos:
-- [Simulador MIPS](https://courses.missouristate.edu/KenVollmar/MARS/MARS_4_5_Aug2014/Mars4_5.
-jar)
+- [Simulador MIPS](https://courses.missouristate.edu/KenVollmar/MARS/MARS_4_5_Aug2014)
 - Java JRE/JDK 9 ou superior
 ## Execução do simulador
 ```bash
