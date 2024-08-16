@@ -13,7 +13,7 @@ $O: .asciiz "O array ordenado é: "
 $NL: .asciiz "\n"
 
 # Definição do Array
-array: .word 10, 7, 8, 76, 1 , 5, 4, 17, 23, 32, 0
+array: .word 10, 7, 8, 76, 1 , 5, 4, 17, 23, 32
 #array: .word 100, 7789, 878, 76675, 16 , 57, 176, 2673, 3209, 44
 
 
