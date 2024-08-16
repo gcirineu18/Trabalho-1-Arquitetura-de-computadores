@@ -213,6 +213,3 @@ FIM:
    li $v0, 10                 # Chamada de sistema para o fim do programa 
    syscall    
   
-  
-  
- 
