@@ -5,12 +5,12 @@ Repositório criado com o objetivo de armazenar pequenos programas implementados
 # Funcionalidades implementadas em um ou mais programas
 - [x] 1.1.Números inteiros recebidos por input do usuário
 - [x] 1.2.Variáveis simples
-- [ ] 1.3.Variável tipo array
+- [x] 1.3.Variável tipo array
 - [x] 1.4.Estrutura condicional composta (if, else if e else)
 - [x] 1.5.Estrutura de repetição
 - [x] 1.6.Chamada de funções com parâmetro de retorno
 - [x] 1.7.Recursão
-- [ ] 1.8.Ordenação de valores em array
+- [x] 1.8.Ordenação de valores em array
 - [x] 1.9.Saída de valores inteiros para o usuário
 
 # Instruções para testes
