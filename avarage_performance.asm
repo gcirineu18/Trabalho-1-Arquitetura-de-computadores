@@ -15,6 +15,7 @@ media: .asciiz "Média: " # Mensagem que exibe a média das notas
 status_reprovado: .asciiz "Você foi reprovado." # Mensagem que vai indicar a situação "reprovado"
 status_af: .asciiz "Você está de AF." # Mensagem que vai indicar a situação "AF"
 status_aprovado: .asciiz "Você está aprovado!" # Mensagem que vai indicar a situação "aprovado"
+$NL: .asciiz "\n"                     # Quebra de linha       
 
 .text
 
@@ -36,6 +37,7 @@ main: # Escopo da função principal
     syscall
 
     # Leitura nota2
+    li $v0, 5           
     syscall
     move $t1, $v0       # Mover o valor lido para o registrador $t1
 
@@ -48,7 +50,8 @@ main: # Escopo da função principal
     li $v0, 5
     syscall
     move $t2, $v0       # Mover o valor lido para o registrador $t2
-
+    
+    
     # Parte do código em que é realizado a soma das três notas para calcular a média
     add $t3, $t0, $t1   # Adiciona os valores de $t0 e $t1 em $t3
     add $t3, $t3, $t2   # Adicionar o valor de $t2 à soma anterior e armazena o $t3
@@ -65,6 +68,11 @@ main: # Escopo da função principal
     li $v0, 1           # Chamada de sistema para imprimir um inteiro
     move $a0, $t5       # Passar o valor em $t5 (média) para o registrador $a0
     syscall             # Imprime o inteiro
+    
+   #Fazendo a quebra de linha
+    li $v0, 4
+    la $a0, $NL
+    syscall 
 
     # Inicio das funções de condicionais para imprimir a situção do usuário
     li $t6, 5            # Carregar o valor 5 (média = 5) no registrador $t6
