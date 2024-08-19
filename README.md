@@ -1,4 +1,4 @@
-# Millions of Instructions Per Second (MIPS)
+# Microprocessor Without Interlocked Pipeline Stages (MIPS)
 
 Repositório criado com o objetivo de armazenar pequenos programas implementados em assembly MIPS para a disciplina de Arquitetura de Computadores. Cada arquivo apresenta comentários explicando cada comando utilizado e, também, a entrada e a saída do programa.
 
